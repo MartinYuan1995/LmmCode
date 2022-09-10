@@ -1,5 +1,5 @@
 
-if(as.double(R.Version()$minor) >= 6.1){
+if(as.double(R.Version()$minor) >= 2.1){
   rm(list = ls())
   if(!require(tidyverse)){install.packages('tidyverse')}
   if(!require(parallel)){install.packages('parallel')}
